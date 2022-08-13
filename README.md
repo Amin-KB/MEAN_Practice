@@ -13,3 +13,18 @@ Component
     AppComponent,
     PostCreateComponent
   ]
+
+
+
+Listening to Events
+
+in Angular we use Event binding
+
+1. <button (click)="onAddPost()">Save post</button>
+2. then we go to our class in ts file and giving the name of the methode in to the class: export class PostCreateComponent
+{
+  onAddPost(){
+    alert('post added!')
+  }
+}
+#with only event bing we can only see alert

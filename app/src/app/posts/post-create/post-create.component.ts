@@ -5,4 +5,9 @@ import { Component } from "@angular/core";
   selector:'app-post-create', //selector allows us to use template
   templateUrl: './post-create.component.html'
 })
-export class PostCreateComponent{}
+export class PostCreateComponent
+{
+  onAddPost(){
+    alert('post added!')
+  }
+}
