@@ -28,3 +28,8 @@ in Angular we use Event binding
   }
 }
 #with only event bing we can only see alert
+
+  outputing Content
+
+  1.string interpolation
+  2.[value]=""

@@ -7,7 +7,9 @@ import { Component } from "@angular/core";
 })
 export class PostCreateComponent
 {
+  newPost = ''; //this is property in Typescript
+  test="empty";
   onAddPost(){
-    alert('post added!')
+  this.newPost= 'The User\'s post'
   }
 }

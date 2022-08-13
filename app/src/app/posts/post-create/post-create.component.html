@@ -1,4 +1,8 @@
-<textarea rows="6"></textarea>
+<!-- with [] we can directly target HTML element with angular like when we wrap Value with [] if wanna
+only show the text as string not the ts property we use a ' 'like [value]="'test'"-->
+<textarea rows="6" [value]="test"></textarea>
 <hr>
-<!--Event Binding-->>
+<!--Event Binding-->
 <button (click)="onAddPost()">Save post</button>
+<!--{{ }} called string interpolation-->
+<p>{{newPost}}</p>
